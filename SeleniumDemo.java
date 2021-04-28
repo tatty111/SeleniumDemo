@@ -22,8 +22,7 @@ public class SeleniumDemo {
       //  System.out.println(actualTitle);
 
 
-
-        if (actualTitle.equals(expectedTitle)) {
+        if (actualTitle.contains(expectedTitle)) {
             System.out.println("Test case PASSED. Actual title " + actualTitle + " matches " + expectedTitle);
         }else{
             System.out.println("Test case FAILED.Actual title " + actualTitle + " matches " + expectedTitle);
